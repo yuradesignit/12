@@ -1,0 +1,19 @@
+.header1 {
+  margin: 0 auto;
+  font-size: 44px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+  .header1 {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 460px) and (orientation: portrait) {
+  .header1 {
+    font-size: 36px;
+  }
+}

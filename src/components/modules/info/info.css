@@ -1,0 +1,20 @@
+.info {
+  display: block;
+}
+
+.info__header1 {
+  margin-bottom: 20px;
+}
+
+.info__header2 {
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+
+.info__paragraph {
+  margin-bottom: 16px;
+}
+
+.none {
+  display: none;
+}

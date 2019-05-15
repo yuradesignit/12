@@ -1,0 +1,9 @@
+.portfolio {
+  margin: 48px 0px 48px 0px;
+  border-radius: 12px;
+  overflow: hidden;
+  display: grid;
+  grid-gap: 4px;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  border: solid 1px rgb(255, 255, 255, 0.05);
+}

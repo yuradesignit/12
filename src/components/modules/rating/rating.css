@@ -1,0 +1,24 @@
+.rating {
+  display: inline-block;
+  padding: 4px 6px 2px 6px;
+  height: 26px;
+}
+
+.rating__number {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: rgb(255, 255, 255, 0.8);
+  padding-right: 6px;
+}
+
+.rating__icon {
+  display: inline-block;
+  padding-right: 1px;
+}
+
+.rating {
+  display: inline-block;
+}

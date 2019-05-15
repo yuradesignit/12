@@ -1,0 +1,59 @@
+.footer {
+  margin: 16px 0px 0px 0px;
+  display: block;
+}
+
+.footer__contacts {
+  padding-top: 0px;
+  display: inline-block;
+  margin-bottom: 48px;
+}
+
+.footer__contact {
+  padding-right: 8px;
+  display: inline;
+}
+
+.footer__title {
+  margin-bottom: 84px;
+}
+
+.copyright {
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: rgb(255, 255, 255, 0.4);
+}
+
+.facebook:hover .item {
+  background-color: #3b5998;
+  color: #ffffff;
+}
+
+.instagram:hover .item {
+  background-color: #c13584;
+  color: #ffffff;
+}
+
+.telegram:hover .item {
+  background-color: #0088cc;
+  color: #ffffff;
+}
+
+.vkontakte:hover .item {
+  background-color: #45668e;
+  color: #ffffff;
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+  .telegram {
+    display: none;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 460px) and (orientation: portrait) {
+  .telegram {
+    display: none;
+  }
+}

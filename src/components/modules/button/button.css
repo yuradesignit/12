@@ -1,0 +1,46 @@
+.button {
+  margin-bottom: 32px;
+  padding: 20px;
+  background-color: rgb(255, 170, 19, 1);
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+.hireme .item {
+  font-size: 32px;
+  font-weight: 500;
+  padding: 0px 0px 6px 0px;
+  background-color: rgb(255, 255, 255, 0);
+  color: rgb(14, 14, 14, 0.8);
+  border-radius: 0px;
+  border-bottom: solid 3px rgb(14, 14, 14, 0.05);
+}
+
+.button:hover .item {
+  color: rgb(14, 14, 14, 1);
+  border-bottom: solid 3px rgb(14, 14, 14, 0.8);
+}
+
+.button__paragraph .paragraph {
+  margin-top: 20px;
+  color: rgb(14, 14, 14, 0.8);
+  font-weight: 600;
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+  .hireme .item {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 460px) and (orientation: portrait) {
+  .hireme .item {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
